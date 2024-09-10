@@ -7,7 +7,9 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-
+.flex{
+    display: flex;
+}
 
 body{
     background-color: #000;
@@ -26,7 +28,7 @@ body{
 
 header{
         padding: 40px 4%;
-        
+       
 
 }
 header>.interface{
@@ -36,7 +38,7 @@ header>.interface{
 
 }
 header>.interface>.logo>a>img{
-    width: 150px;
+    width: 100px;
     border-radius: 100%;
 }
 header a {
@@ -75,4 +77,11 @@ header .btn-contato button:hover{
 
     box-shadow: 1px 1px 10px  #f5a403da;
 
+}
+/*ESTILO DO TOPO DO SITE*/
+
+.topo-site{
+        padding: 40px 4%;
+        background-color: #797979;
+  
 }
