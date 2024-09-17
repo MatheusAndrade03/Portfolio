@@ -46,7 +46,7 @@ body{
     letter-spacing: 3px;
     transition: all ease 0.3s;
 }
- button:hover{
+ button:hover , .btn-enviar input:hover{
 
     box-shadow: 1px 1px 10px  #f5a403da;
     transform: scale(1.1);
@@ -275,3 +275,71 @@ section.topo-site .flex{
 .formulario{
     padding: 40px 4%;
 }
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+    form input{
+        width: 100%;
+        background-color: #9c959531;
+        outline: 0;
+        border:0;
+        padding: 20px 15px;
+        color:  #fff;
+        font-size: 18px;
+        border-radius: 15px;
+
+    }
+
+
+    form input::placeholder{
+        color: #f5a503;
+    }
+
+    form input, form textarea{
+        width: 100%;
+        background-color: #9c959531;
+        outline: 0;
+        border:0;
+        padding: 20px 15px;
+        color:  #fff;
+        font-size: 18px;
+        border-radius: 15px;
+
+
+    }
+    form textarea{
+        resize: none;
+        max-height: 200px;
+    }
+    form textarea::placeholder{
+
+        color: #f5a503;
+    }
+
+    form .btn-enviar{
+        margin-top: 20px;
+        text-align: center;
+
+    }
+    form .btn-enviar input{
+
+        width: 120px;
+        background-color: #f5a503;
+        font-weight: 700;
+       letter-spacing: 4px;
+       cursor: pointer;
+       transition: .2s;
+
+    }
+
+
+
+
+    
