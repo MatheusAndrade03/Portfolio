@@ -221,4 +221,57 @@ section.topo-site .flex{
 
 }
 
+/*ESTILO PORTFOLIO*/
 
+.portfolio{
+    padding: 40px 4%;
+    box-shadow:  0 0 40px 10px #ffffff1f;
+}
+.portfolio .flex{
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.img-port{
+    width: 360px;
+    height: 460px;
+    background-color:  #f5a503 ;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: all ease 8s;
+    position: relative;
+    border-radius: 40px;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000071;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    opacity: 0;
+    transition: all ease .5s;
+    
+
+}
+.overlay:hover{
+    opacity: 1;
+}
+
+
+
+.img-port:hover{
+    background-position: 100% 100%;
+}
+/*FORMULARIO*/
+
+.formulario{
+    padding: 40px 4%;
+}
